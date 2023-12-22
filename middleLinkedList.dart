@@ -2,7 +2,9 @@ class Node<T> {
   Node({required this.value, this.next});
   T value;
   Node<T>? next;
+  
 }
+
 Node middleNode(Node node){
   Node Step = node;
   Node twoStep = node;
