@@ -12,6 +12,7 @@ bool isBalanced(String s){
   }
   return stack.isEmpty; 
 }
+// I Think i should be QA insted :)
 void main(){
   print(isBalanced("(())")); // True
   print(isBalanced("(Mohammad)")); // True
